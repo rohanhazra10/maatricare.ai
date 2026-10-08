@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+
+.venv/
+venv/
+
+.vscode/
+.idea/
+
+# Trained models
+models/*.pkl
+models/*.joblib
+
+# Generated reports
+reports/*.csv
+reports/*.json
+
+# Datasets
+data/raw/*
+data/processed/*
+
+.env
+*.log
